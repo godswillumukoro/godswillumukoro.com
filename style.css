@@ -2,10 +2,10 @@
 
 
 :root {
-  --bg-body: hsl(0, 0%, 8%);
-  --bg-body2: hsl(0, 0%, 14%);
-  --accent: #658FC6;
-  --accent-2: #BE775C;
+  --bg-body: hsl(260, 18%, 10%);
+  --bg-body2: hsl(249, 33%, 4%);
+  --accent: hsl(231, 18%, 30%);
+  --accent-2: hsl(232, 39%, 85%);
   --text1: hsl(0, 0%, 100%);
   --text2: hsl(0, 0%, 85%);
   --invalid: hsl(7, 100%, 68%);
@@ -25,7 +25,6 @@
 html,
 body {
   overflow-x: hidden;
-  background-color: #658FC6;
 }
 
 html {
@@ -123,7 +122,7 @@ button {
 }
 
 a:hover {
-  color: var(--accent);
+  color: var(--accent-2);
 }
 
 img,
